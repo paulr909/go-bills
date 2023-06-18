@@ -1,29 +1,10 @@
-# README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
+* Go CLI applcation for creating checkout bills
+* v1
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* Install Go [https://go.dev/doc/install](https://go.dev/doc/install)
+* Add GOPATH on macOS [https://tecadmin.net/install-go-on-macos/](https://tecadmin.net/install-go-on-macos/) 
+* on Ubuntu [https://www.cyberciti.biz/faq/how-to-install-gol-ang-on-ubuntu-linux/](https://www.cyberciti.biz/faq/how-to-install-gol-ang-on-ubuntu-linux/) 
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact

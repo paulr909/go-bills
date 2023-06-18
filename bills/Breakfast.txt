@@ -1,0 +1,5 @@
+Bill breakdown:
+Toast:                    £1.99
+Latte:                    £2.99
+Tip:                      £2
+Total:                    £6.98

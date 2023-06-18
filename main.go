@@ -15,18 +15,18 @@ func getInput(prompt string, r *bufio.Reader) (string, error) {
 	return strings.TrimSpace(input), err
 }
 
-func createBill() bill {
+func createBill() Bill {
 	reader := bufio.NewReader(os.Stdin)
 
 	name, _ := getInput("Create a new bill name: ", reader)
 
 	b := newBill(name)
-	fmt.Println("Created the bill -", b.name)
+	fmt.Println("Created the bill -", b.Name)
 
 	return b
 }
 
-func promptOptions(b bill) {
+func promptOptions(b Bill) {
 	reader := bufio.NewReader(os.Stdin)
 
 	opt, _ := getInput("Choose option (a - add item, s - save bill, t - add tip): ", reader)
@@ -59,7 +59,7 @@ func promptOptions(b bill) {
 		promptOptions(b)
 	case "s":
 		b.save()
-		fmt.Println("Bill has been saved as", b.name)
+		fmt.Println("Bill has been saved as", b.Name)
 	default:
 		fmt.Println("That was not a valid option...")
 		promptOptions(b)

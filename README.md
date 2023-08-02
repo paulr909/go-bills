@@ -1,6 +1,6 @@
 [![Go Version](https://img.shields.io/badge/go-1.20-brightgreen.svg)](https://go.dev/)
 
-* Go CLI applcation for creating checkout bills
+* Go CLI application for creating checkout bills
 * v1
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
